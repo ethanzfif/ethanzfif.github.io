@@ -1,0 +1,90 @@
+body{
+    font-family: times,arial,helvetica;
+    line-height: 1;
+    font-size: 16px;
+    text-align: center;
+
+}
+header{
+    background-color: rgb(0,255,255);
+    border-bottom: rgb(255,128,0) 16px solid;
+    min-height: 128px;
+    color: orange;
+    
+}
+header h1{
+    float:left;
+    margin-bottom: 50px;
+    
+}
+header a{
+    text-decoration: none;
+    
+}
+nav{
+    float: right;
+    
+}
+ul{
+    float: right;
+    
+}
+header li{
+    display: inline;
+    font-size: 20px;
+    color: orange;
+    
+}
+
+#showcase{
+    background: url(statss.jpg) no-repeat 0px -350px;
+    min-height: 200px;
+    max-height: 600px;
+}
+
+#showcase h1{
+    color: blue;
+
+}
+
+p{
+    color: blue;
+    background-color: rgb(64,128,255);
+    font-size: 20px;
+}
+
+#items{
+    margin-top: 20px;
+    
+}
+
+.item{
+    float: left;
+    width: 33%;
+    text-align: center
+}
+
+.item h3{
+    
+}
+
+footer{
+    background-color: rgb(200,200,200);
+    margin-top: 10px;
+    border-top: lime 3px solid;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header a:hover{
+    color: orange;
+    font-weight: bold;
+}
+
+.highlight{
+    color: orange;
+}

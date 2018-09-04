@@ -1,0 +1,106 @@
+body{
+    font-family: times,arial,helvetica;
+    line-height: 1;
+    font-size: 20px;
+    text-align: center;
+}
+
+.highlight{
+    color: aqua;
+    font-weight: bold;
+}
+
+header{
+    background-color: rgb(128,128,128);
+    min-height: 108px;
+    border-bottom: rgb(0,0,255) 8px solid;
+    position: sticky;
+    top: 0rem;
+}
+
+header h1{
+    float: left;
+    margin-top: 65px;
+    margin-left: 16px;
+}
+
+header ul{
+    float: right;
+    margin-top: 80px;
+    margin-right: 16px;
+}
+
+header li{
+    display: inline;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 16px;
+}
+
+header a:hover{
+    color: orange;
+}
+
+footer ul{
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+
+footer a{
+    color: blue;
+    margin-left: 16px;
+}
+
+footer{
+    background-color: rgb(128,128,128);
+    margin-top: 50px;
+    border-top: rgb(0,0,255) 8px solid;
+}
+
+pre{
+    font-family: times,arial,helvetica;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+@media(max-width: 770px){
+    header{
+        margin-top: 0px;
+        min-height: 60px;
+    }
+    
+    header li{
+        float: none;
+    }
+    
+    header ul{
+        float: none;
+        margin-top: 0px;
+    }
+    
+    header h1{
+        margin-top: 0px;
+    }
+}
+
+footer a:hover{
+    font-weight: bold;
+}
+
+section h1{
+    background-color: rgb(128,128,128);
+}
+
+p{
+    margin-left: 512px;
+    margin-right: 512px;
+}
+
+#showcase{
+    background: url(Blueprint.jpg) no-repeat 0px -350px;
+    min-height: 200px;
+    max-height: 600px;
+}
