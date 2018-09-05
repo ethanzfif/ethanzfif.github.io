@@ -100,7 +100,44 @@ p{
 }
 
 #showcase{
-    background: url(Blueprint.jpg) no-repeat 0px -350px;
+    background: url(Blueprint.jpg) no-repeat 0px 0px;
     min-height: 200px;
-    max-height: 600px;
+    max-height: 800px;
+    background-size: cover;
+}
+
+h2{
+    font-size: 128px;
+    font-family: times;
+}
+
+.quote{
+    margin-top: 120px;
+    float: left;
+    width: 33%;
+}
+
+.container{
+
+    margin: auto;
+    overflow: hidden;
+}
+
+#showcaseBio{
+    float: left;
+    width: 40%;
+}
+
+#sidebar h1{
+    color: blue;
+}
+
+#sidebar{
+    float: right;
+    background-color: pink;
+    width: 50%;
+}
+
+.link{
+    color: blue;
 }
