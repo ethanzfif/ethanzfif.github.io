@@ -5,6 +5,14 @@ body{
     text-align: center;
 }
 
+section a{
+    color: blue;
+}
+
+section a:hover{
+    font-weight: bold;
+}
+
 .highlight{
     color: aqua;
     font-weight: bold;
@@ -42,6 +50,7 @@ header a{
 
 header a:hover{
     color: orange;
+
 }
 
 footer ul{
@@ -66,25 +75,7 @@ pre{
     font-size: 25px;
 }
 
-@media(max-width: 770px){
-    header{
-        margin-top: 0px;
-        min-height: 60px;
-    }
-    
-    header li{
-        float: none;
-    }
-    
-    header ul{
-        float: none;
-        margin-top: 0px;
-    }
-    
-    header h1{
-        margin-top: 0px;
-    }
-}
+
 
 footer a:hover{
     font-weight: bold;
@@ -97,13 +88,6 @@ section h1{
 p{
     margin-left: 512px;
     margin-right: 512px;
-}
-
-#showcase{
-    background: url(Blueprint.jpg) no-repeat 0px 0px;
-    min-height: 200px;
-    max-height: 800px;
-    background-size: cover;
 }
 
 h2{
@@ -123,21 +107,78 @@ h2{
     overflow: hidden;
 }
 
-#showcaseBio{
-    float: left;
-    width: 40%;
-}
-
-#sidebar h1{
-    color: blue;
-}
-
-#sidebar{
-    float: right;
-    background-color: pink;
-    width: 50%;
-}
-
 .link{
     color: blue;
+}
+
+.home-bg{
+    background-color: rgb(200,200,255);
+}
+
+.about-bg{
+    background-image: url("qmarks.jpg");
+}
+
+.projects-bg{
+    background-image: url("Blueprint.jpg");
+}
+
+span{
+    background-color: white;
+}
+
+@media(max-width: 770px){
+    header{
+        margin-top: 0px;
+        min-height: 60px;
+    }
+    
+    header li{
+        float: none;
+    }
+    
+    header ul{
+        float: none;
+        margin-top: 0px;
+    }
+    
+    header h1{
+        margin-top: 0px;
+    }
+    
+    .quote img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    h2{
+        font-size: 50px;
+    }
+    
+    footer pre{
+        font-size: 20px;
+    }
+    
+    .quote{
+    margin-top: 50px;
+    width: 100%;
+    }
+    
+    .aboutme img{
+        width: 300px;
+        height: 150px;
+    }
+    
+    p{
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    
+    .nonimage img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    
 }
