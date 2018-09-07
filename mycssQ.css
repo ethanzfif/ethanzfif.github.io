@@ -3,6 +3,7 @@ body{
     line-height: 1;
     font-size: 20px;
     text-align: center;
+    margin: 0px;
 }
 
 section a{
@@ -88,6 +89,7 @@ section h1{
 p{
     margin-left: 512px;
     margin-right: 512px;
+    font-size: 25px;
 }
 
 h2{
